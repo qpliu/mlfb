@@ -18,12 +18,12 @@ class Db:
             min_year = 2012
             pass
         c = self._conn.cursor()
-        c.execute('SELECT game_id FROM games WHERE year >= ?', (min_year,))
+        c.execute('SELECT game_id FROM games WHERE year >= ? ORDER BY year ASC, week ASC', (min_year,))
         return list(map(lambda x: Game(self, x[0]), c.fetchall()))
 
-    def last_games(self, team_id, limit=4):
+    def last_games(self, team_id, limit=4, as_of=(9999,1)):
         c = self._conn.cursor()
-        c.execute('SELECT game_id FROM games WHERE road_team_id = ? OR home_team_id = ? ORDER BY year DESC, week DESC LIMIT ?', (team_id, team_id, limit))
+        c.execute('SELECT game_id FROM games WHERE (road_team_id = ? OR home_team_id = ?) AND (year < ? OR (year = ? AND week < ?)) ORDER BY year DESC, week DESC LIMIT ?', (team_id, team_id, as_of[0], as_of[0], as_of[1], limit))
         return list(map(lambda x: Game(self, x[0]), c.fetchall()))
 
     pass
@@ -83,8 +83,11 @@ class Game:
             return 0
         pass
 
-    def target_data_score(self):
-        return (self._road_team_score + self._home_team_score, self._road_team_score - self._home_team_score)
+    def target_data_score_total(self):
+        return self._road_team_score + self._home_team_score
+
+    def target_data_score_diff(self):
+        return self._road_team_score - self._home_team_score
 
     def road_players(self):
         self.load()
@@ -100,15 +103,11 @@ class Game:
 
     def road_team_last_games(self, limit=4):
         self.load()
-        c = self._db.cursor()
-        c.execute('SELECT game_id FROM games WHERE ((year = ? AND week < ?) OR (year < ?)) AND (road_team_id = ? OR home_team_id = ?) ORDER BY year DESC, week DESC LIMIT ?', (self._year, self._week, self._year, self._road_team_id, self._road_team_id, limit))
-        return list(map(lambda x: Game(self._db, x[0]), c.fetchall()))
+        return self._db.last_games(self._road_team_id, limit=limit, as_of=(self._year, self._week))
 
     def home_team_last_games(self, limit=4):
         self.load()
-        c = self._db.cursor()
-        c.execute('SELECT game_id FROM games WHERE ((year = ? AND week < ?) OR (year < ?)) AND (road_team_id = ? OR home_team_id = ?) ORDER BY year DESC, week DESC LIMIT ?', (self._year, self._week, self._year, self._home_team_id, self._home_team_id, limit))
-        return list(map(lambda x: Game(self._db, x[0]), c.fetchall()))
+        return self._db.last_games(self._home_team_id, limit=limit, as_of=(self._year, self._week))
 
     def road_team_stat(self, stat, default=None):
         self.load()
