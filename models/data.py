@@ -1,3 +1,4 @@
+import datetime
 import sqlite3
 
 class Db:
@@ -12,13 +13,17 @@ class Db:
     def cursor(self):
         return self._conn.cursor()
 
-    def games(self, with_snap_counts=False):
+    def games(self, with_snap_counts=False, with_week_1=True):
         min_year = 0
         if with_snap_counts:
             min_year = 2012
             pass
+        omit_week = 1
+        if with_week_1:
+            omit_week = 0
+            pass
         c = self._conn.cursor()
-        c.execute('SELECT game_id FROM games WHERE year >= ? ORDER BY year ASC, week ASC', (min_year,))
+        c.execute('SELECT game_id FROM games WHERE year >= ? AND week <> ? ORDER BY year ASC, week ASC', (min_year,omit_week))
         return list(map(lambda x: Game(self, x[0]), c.fetchall()))
 
     def last_games(self, team_id, limit=4, as_of=(9999,1)):
@@ -184,9 +189,13 @@ class Player:
             return undrafted
         return self._draft_pos
 
-    def age(self, game):
+    def age(self, game=None, date=None):
         self.load()
-        return (game.game_time()[2] - self._dob).days
+        if date != None:
+            return (date - self._dob).days
+        if game != None:
+            return (game.game_time()[2] - self._dob).days
+        return (datetime.date.today() - self._dob).days
 
     def last_games(self, game, limit=4):
         self.load()

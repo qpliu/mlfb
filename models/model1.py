@@ -13,14 +13,20 @@
 # 10: home team points scored in last 4 games
 # 11: home team points allowed in last 4 games
 
-class Model1:
+class Model:
     def __init__(self, db):
         self._db = db
         self._n = 4
         pass
 
+    def name(self):
+        return "model1"
+
     def need_snap_counts(self):
         return False
+
+    def with_week_1(self):
+        return True
 
     def need_history_size(self):
         return self._n
@@ -43,21 +49,21 @@ class Model1:
             home_team_yards = int(g.home_team_stat("Total Yards"))
             if team_id == home_team_id:
                 if home_team_score > road_team_score:
-                    input_data[row_index, column_offset+1] = input_data[row_index, column_offset+1] + 1
+                    input_data[row_index, column_offset+1] += 1
                     pass
-                input_data[row_index, column_offset+2] = input_data[row_index, column_offset+2] + home_team_yards
-                input_data[row_index, column_offset+3] = input_data[row_index, column_offset+3] + road_team_yards
-                input_data[row_index, column_offset+4] = input_data[row_index, column_offset+4] + home_team_score
-                input_data[row_index, column_offset+5] = input_data[row_index, column_offset+5] + road_team_score
+                input_data[row_index, column_offset+2] += home_team_yards
+                input_data[row_index, column_offset+3] += road_team_yards
+                input_data[row_index, column_offset+4] += home_team_score
+                input_data[row_index, column_offset+5] += road_team_score
                 pass
             else:
                 if road_team_score > home_team_score:
-                    input_data[row_index, column_offset+1] = input_data[row_index, column_offset+1] + 1
+                    input_data[row_index, column_offset+1] += 1
                     pass
-                input_data[row_index, column_offset+2] = input_data[row_index, column_offset+2] + road_team_yards
-                input_data[row_index, column_offset+3] = input_data[row_index, column_offset+3] + home_team_yards
-                input_data[row_index, column_offset+4] = input_data[row_index, column_offset+4] + road_team_score
-                input_data[row_index, column_offset+5] = input_data[row_index, column_offset+5] + home_team_score
+                input_data[row_index, column_offset+2] += road_team_yards
+                input_data[row_index, column_offset+3] += home_team_yards
+                input_data[row_index, column_offset+4] += road_team_score
+                input_data[row_index, column_offset+5] += home_team_score
                 pass
             pass
         pass

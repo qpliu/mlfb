@@ -3,10 +3,10 @@ import tensorflow.keras.models
 import numpy
 
 import data
-import model1
+import model2 as model
 
 db = data.Db("../data/db")
-m = model1.Model1(db)
+m = model.Model(db)
 
 year = 2019
 week = 6
@@ -25,9 +25,9 @@ games = [(datetime.date(2019,10,10),'nyg','nwe'),
          (datetime.date(2019,10,13),'pit','sdg'),
          (datetime.date(2019,10,14),'det','gnb')]
 
-modelwin = tensorflow.keras.models.load_model("model1.win.h5")
-modeltotal = tensorflow.keras.models.load_model("model1.total.h5")
-modeldiff = tensorflow.keras.models.load_model("model1.diff.h5")
+modelwin = tensorflow.keras.models.load_model(m.name()+".win.h5")
+modeltotal = tensorflow.keras.models.load_model(m.name()+".total.h5")
+modeldiff = tensorflow.keras.models.load_model(m.name()+".diff.h5")
 
 x = numpy.empty((1,m.input_dim()))
 for (date,road_team_id,home_team_id) in games:
@@ -41,5 +41,5 @@ for (date,road_team_id,home_team_id) in games:
     else:
         road_team_id = road_team_id.upper()
         pass
-    print(road_team_id,max(0,round(float((total[0]+diff[0])/2))),home_team_id,max(0,round(float((total[0]-diff[0])/2))),modelwin.predict(x),modeltotal.predict(x),modeldiff.predict(x))
+    print(road_team_id,max(0,round(float((total[0]+diff[0])/2))),home_team_id,max(0,round(float((total[0]-diff[0])/2))))
     pass
