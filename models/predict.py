@@ -9,21 +9,21 @@ db = data.Db("../data/db")
 m = model.Model(db)
 
 year = 2019
-week = 6
-games = [(datetime.date(2019,10,10),'nyg','nwe'),
-         (datetime.date(2019,10,13),'car','tam'),
-         (datetime.date(2019,10,13),'sea','cle'),
-         (datetime.date(2019,10,13),'cin','rav'),
-         (datetime.date(2019,10,13),'phi','min'),
-         (datetime.date(2019,10,13),'was','mia'),
-         (datetime.date(2019,10,13),'htx','kan'),
-         (datetime.date(2019,10,13),'nor','jax'),
-         (datetime.date(2019,10,13),'atl','crd'),
-         (datetime.date(2019,10,13),'sfo','ram'),
-         (datetime.date(2019,10,13),'oti','den'),
-         (datetime.date(2019,10,13),'dal','nyj'),
-         (datetime.date(2019,10,13),'pit','sdg'),
-         (datetime.date(2019,10,14),'det','gnb')]
+week = 7
+games = [(datetime.date(2019,10,17),'kan','den'),
+         (datetime.date(2019,10,20),'mia','buf'),
+         (datetime.date(2019,10,20),'ram','atl'),
+         (datetime.date(2019,10,20),'sfo','was'),
+         (datetime.date(2019,10,20),'crd','nyg'),
+         (datetime.date(2019,10,20),'rai','gnb'),
+         (datetime.date(2019,10,20),'min','det'),
+         (datetime.date(2019,10,20),'htx','clt'),
+         (datetime.date(2019,10,20),'jax','cin'),
+         (datetime.date(2019,10,20),'sdg','oti'),
+         (datetime.date(2019,10,20),'nor','chi'),
+         (datetime.date(2019,10,20),'rav','sea'),
+         (datetime.date(2019,10,20),'phi','dal'),
+         (datetime.date(2019,10,21),'nwe','nyj')]
 
 modelwin = tensorflow.keras.models.load_model(m.name()+".win.h5")
 modeltotal = tensorflow.keras.models.load_model(m.name()+".total.h5")
