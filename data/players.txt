@@ -353,6 +353,7 @@ NichSt99,"Stephen Nicholas","LB",6-2,225lb,1983-05-01,109
 NkemRo00,"Robert Nkemdiche","DT",6-4,296lb,1994-09-19,29
 NelsRe99,"Reggie Nelson","DB",5-11,210lb,1983-09-21,21
 NinkRo20,"Rob Ninkovich","DE",6-2,260lb,1984-02-01,135
+NeedNi00,"Nik Needham","DB",6-0,193lb,1996-11-04,
 NichBi00,"Bilal Nichols","DT",6-3,313lb,1996-09-14,145
 NixILo00,"Louis Nix","DT",6-2,331lb,1991-07-31,83
 NelsQu00,"Quenton Nelson","OG",6-5,330lb,1996-03-19,6
@@ -397,6 +398,7 @@ GratDw00,"Dwayne Gratz","CB",5-11,201lb,1990-03-08,64
 GlenMi00,"Mike Glennon","QB",6-7,225lb,1989-12-12,73
 GreeAl00,"Alex Green","RB",6-0,220lb,1988-06-23,96
 GausQu00,"Quentin Gause","LB",6-0,243lb,1992-10-30,
+GiffLu00,"Luke Gifford","LB",6-3,243lb,1995-08-28,
 GilbJu00,"Justin Gilbert","CB",6-0,202lb,1991-11-07,8
 GuyxLa00,"Lawrence Guy","DT",6-4,315lb,1990-03-17,233
 GreeRa01,"Rasheem Green","DT",6-4,279lb,1997-05-15,79
@@ -601,6 +603,7 @@ GibsGa99,"Gary Gibson","DT-DE",6-3,285lb,1982-05-05,
 ZettAn00,"Anthony Zettel","DE",6-4,275lb,1992-08-09,202
 ZbikTo99,"Tom Zbikowski","DB",5-11,209lb,1985-05-22,86
 ZylsBr00,"Brandon Zylstra","WR",6-2,215lb,1993-03-25,
+ZaccOl01,"Olamide Zaccheaus","WR",5-8,193lb,1997-07-23,
 ZombFr00,"Frank Zombo","LB",6-3,254lb,1987-03-05,
 ZennZa00,"Zach Zenner","RB",5-11,224lb,1991-09-13,
 ZuttJe20,"Jeremy Zuttah","G",6-4,303lb,1986-06-01,83
@@ -837,6 +840,7 @@ SmitVy00,"Vyncint Smith","WR",6-3,202lb,1996-06-09,
 StewDa00,"Darian Stewart","DB",5-11,214lb,1988-08-04,
 StreTo00,"Tommy Streeter","WR",6-5,219lb,1989-10-07,198
 ShulMi01,"Mickey Shuler","TE",6-4,242lb,1986-10-09,214
+ScotJa02,"Jaleel Scott","WR",6-5,210lb,1995-02-23,132
 ShelCo00,"Coleman Shelton","C",6-5,285lb,1995-07-28,
 ShefCa99,"Cameron Sheffield","LB",6-3,256lb,1988-02-12,142
 SpanCh00,"Chad Spann","RB",5-9,198lb,1988-08-08,
@@ -872,6 +876,7 @@ SchuDa00,"Dalton Schultz","TE",6-5,244lb,1996-07-11,137
 SmitAn23,"Andre Smith","T",6-4,330lb,1987-01-25,6
 SiegTr00,"Trent Sieg","LS",6-3,240lb,1995-05-19,
 SkulJu00,"Justin Skule","OT",6-6,318lb,1996-11-23,183
+SmitKa00,"Kaden Smith","TE",6-5,252lb,1997-04-24,176
 ScotJo22,"Jonathan Scott","T",6-6,318lb,1983-01-10,141
 SchaMa01,"Max Scharping","OT",6-6,327lb,1996-08-10,55
 SteeRo00,"Robert Steeples","CB",6-1,194lb,1989-11-27,
@@ -911,6 +916,7 @@ SilaAm00,"Amini Silatolu","T",6-4,305lb,1988-09-16,40
 StewAr00,"ArDarius Stewart","WR",6-0,205lb,1993-12-08,79
 SaddJi20,"Jimmy Saddler-McQueen","DT",6-2,297lb,1987-08-04,
 SimsSt00,"Steven Sims","WR",5-10,176lb,1997-03-31,
+SmitCa01,"Cameron Smith","LB",6-2,235lb,1997-03-26,162
 SproDa00,"Darren Sproles","RB",5-6,190lb,1983-06-20,130
 SummTy00,"Ty Summers","LB",6-1,241lb,1995-12-31,226
 ShawCo00,"Connor Shaw","QB",6-0,206lb,1991-09-19,
@@ -1370,6 +1376,7 @@ AdamKy00,"Kyle Adams","TE",6-4,250lb,1988-01-19,
 AndeCo01,"Colt Anderson","DB",5-10,194lb,1985-10-25,
 AlexMa00,"Maurice Alexander","SS",6-2,220lb,1991-02-16,110
 ApplAn99,"Antwan Applewhite","LB",6-3,246lb,1985-12-31,
+AlleNi00,"Nick Allegretti","G",6-4,320lb,1996-04-21,216
 AndeJa98,"Jamaal Anderson","DE",6-5,288lb,1986-02-06,8
 ArchDr00,"Dri Archer","WR",5-8,173lb,1991-08-09,97
 AndeJa21,"James Anderson","LB",6-2,235lb,1983-09-26,88
@@ -1628,6 +1635,7 @@ OsweBr00,"Brock Osweiler","QB",6-7,240lb,1990-11-22,57
 OgleKe00,"Kevin Ogletree","WR",6-2,190lb,1987-08-05,
 OlatAy00,"Ayodeji Olatoye","DB",6-1,194lb,1991-07-20,
 ObadEf00,"Efe Obada","LB",6-6,265lb,1992-04-13,
+OkorOg00,"Ogbonnia Okoronkwo","DE",6-2,253lb,1995-04-24,160
 OConJa00,"Jake O'Connell","TE",6-4,255lb,1985-11-06,237
 OsgoKa00,"Kassim Osgood","WR",6-5,220lb,1980-05-20,
 OjinQu20,"Quinn Ojinnaka","G",6-5,295lb,1984-04-23,139
@@ -1932,6 +1940,7 @@ HuntMa00,"Margus Hunt","DE",6-8,295lb,1987-07-14,53
 HankLe00,"Leonard Hankerson","WR",6-1,205lb,1988-05-07,79
 HillJu00,"Justice Hill","RB",5-10,200lb,1997-11-14,113
 HitcAn00,"Anthony Hitchens","OLB",6-0,235lb,1992-06-10,119
+HentHa00,"Hale Hentges","TE",6-4,245lb,1996-08-19,
 HargJa00,"Javon Hargrave","DT",6-2,305lb,1993-02-07,89
 HillCo21,"Corey Hilliard","T",6-5,315lb,1985-04-26,209
 HolmGa00,"Gabe Holmes","TE",6-5,255lb,1991-03-29,
@@ -2227,6 +2236,7 @@ MedeJa00,"Jamie Meder","DT",6-2,308lb,1991-04-12,
 McInGa00,"Garrett McIntyre","LB",6-3,270lb,1984-11-26,
 MurrLa00,"Latavius Murray","RB",6-3,230lb,1990-01-18,181
 MaulLo00,"Lorenzo Mauldin","OLB",6-4,259lb,1992-10-01,82
+MoorJa02,"Jason Moore","WR",6-3,215lb,1995-06-23,
 McDoBr99,"Brandon McDonald","DB",5-11,181lb,1985-08-26,140
 MillSc01,"Scott Miller","WR",5-11,174lb,1997-07-31,208
 MunsCa00,"Calvin Munson","OLB",6-0,243lb,1994-12-27,
@@ -4605,6 +4615,7 @@ WallLe00,"Levi Wallace","CB",6-0,179lb,1995-06-12,
 WrehBl00,"Blidi Wreh-Wilson","CB",6-1,190lb,1989-12-05,70
 WilsRa00,"Ramik Wilson","ILB",6-2,238lb,1992-08-19,118
 WaddLa01,"LaAdrian Waddle","T",6-6,315lb,1991-07-21,
+WillTr06,"Trayveon Williams","RB",5-8,206lb,1997-10-18,182
 WelcTh20,"Thomas Welch","T",6-6,306lb,1987-06-19,208
 WynnJa99,"Jarius Wynn","DE",6-5,273lb,1986-08-29,182
 WhitMe00,"Melvin White","CB",6-1,203lb,1990-06-26,
@@ -4729,6 +4740,7 @@ WardT.99,"T.J. Ward","DB",5-10,200lb,1986-12-12,38
 WillKy01,"Kyle Williams","WR",5-10,185lb,1988-07-19,206
 WillMa04,"Maxx Williams","TE",6-4,252lb,1994-04-12,55
 WhitCo01,"Corey White","SS",5-11,206lb,1990-05-09,162
+WaltAu00,"Austin Walter","RB",5-8,202lb,1996-08-17,
 WashAd00,"Adolphus Washington","DT",6-4,295lb,1994-11-24,80
 WillKa01,"Karlos Williams","RB",6-1,225lb,1993-05-04,155
 WillLe02,"Leonard Williams","DT",6-5,302lb,1994-06-20,6
