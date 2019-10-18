@@ -28,25 +28,28 @@ for i in range(len(games)):
     pass
 
 model = tensorflow.keras.models.Sequential()
-model.add(tensorflow.keras.layers.Dense(64, activation='relu', input_dim=m.input_dim()))
+model.add(tensorflow.keras.layers.BatchNormalization(input_shape=(m.input_dim(),)))
+model.add(tensorflow.keras.layers.Dense(m.neurons()[0], activation='relu'))
 model.add(tensorflow.keras.layers.Dense(1, activation='sigmoid'))
 model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['binary_accuracy'])
-model.fit(x, ywin, epochs=20, batch_size=1024)
+model.fit(x, ywin, epochs=m.epochs()[0], batch_size=1024)
 model.save(m.name()+".win.h5")
 del model
 
 model = tensorflow.keras.models.Sequential()
-model.add(tensorflow.keras.layers.Dense(64, activation='relu', input_dim=m.input_dim()))
+model.add(tensorflow.keras.layers.BatchNormalization(input_shape=(m.input_dim(),)))
+model.add(tensorflow.keras.layers.Dense(m.neurons()[1], activation='relu'))
 model.add(tensorflow.keras.layers.Dense(1, activation='linear'))
-model.compile(optimizer='nadam', loss='mean_squared_error', metrics=['mean_squared_error'])
-model.fit(x, ytotal, epochs=200, batch_size=1024)
+model.compile(optimizer='nadam', loss='mean_squared_error')
+model.fit(x, ytotal, epochs=m.epochs()[2], batch_size=1024)
 model.save(m.name()+".total.h5")
 del model
 
 model = tensorflow.keras.models.Sequential()
-model.add(tensorflow.keras.layers.Dense(64, activation='relu', input_dim=m.input_dim()))
+model.add(tensorflow.keras.layers.BatchNormalization(input_shape=(m.input_dim(),)))
+model.add(tensorflow.keras.layers.Dense(m.neurons()[2], activation='relu'))
 model.add(tensorflow.keras.layers.Dense(1, activation='linear'))
-model.compile(optimizer='nadam', loss='mean_squared_error', metrics=['mean_squared_error'])
-model.fit(x, ydiff, epochs=200, batch_size=1024)
+model.compile(optimizer='nadam', loss='mean_squared_error')
+model.fit(x, ydiff, epochs=m.epochs()[1], batch_size=1024)
 model.save(m.name()+".diff.h5")
 del model
