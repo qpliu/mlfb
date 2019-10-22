@@ -2,7 +2,7 @@ import tensorflow.keras
 import numpy
 
 import data
-import model2 as model
+import model
 
 db = data.Db('../data/db')
 m = model.Model(db)
@@ -15,16 +15,15 @@ for i in range(len(games)):
 
 x = numpy.empty((len(games),m.input_dim()))
 ywin = numpy.empty((len(games),1))
-ytotal = numpy.empty((len(games),1))
-ydiff = numpy.empty((len(games),1))
+yscore = numpy.empty((len(games),2))
 for i in range(len(games)):
     g = games[i]
     (year, week, date) = g.game_time()
     (road_team_id,home_team_id) = g.teams()
     m.set_input_data(year, week, date, road_team_id, home_team_id, x, i)
     ywin[i,0] = g.target_data_win()
-    ytotal[i,0] = g.target_data_score_total()
-    ydiff[i,0] = g.target_data_score_diff()
+    yscore[i,0] = g.score()[0]
+    yscore[i,1] = g.score()[1]
     pass
 
 model = tensorflow.keras.models.Sequential()
@@ -39,17 +38,8 @@ del model
 model = tensorflow.keras.models.Sequential()
 model.add(tensorflow.keras.layers.BatchNormalization(input_shape=(m.input_dim(),)))
 model.add(tensorflow.keras.layers.Dense(m.neurons()[1], activation='relu'))
-model.add(tensorflow.keras.layers.Dense(1, activation='linear'))
+model.add(tensorflow.keras.layers.Dense(2, activation='linear'))
 model.compile(optimizer='nadam', loss='mean_squared_error')
-model.fit(x, ytotal, epochs=m.epochs()[2], batch_size=1024)
-model.save(m.name()+".total.h5")
-del model
-
-model = tensorflow.keras.models.Sequential()
-model.add(tensorflow.keras.layers.BatchNormalization(input_shape=(m.input_dim(),)))
-model.add(tensorflow.keras.layers.Dense(m.neurons()[2], activation='relu'))
-model.add(tensorflow.keras.layers.Dense(1, activation='linear'))
-model.compile(optimizer='nadam', loss='mean_squared_error')
-model.fit(x, ydiff, epochs=m.epochs()[1], batch_size=1024)
-model.save(m.name()+".diff.h5")
+model.fit(x, yscore, epochs=m.epochs()[1], batch_size=1024)
+model.save(m.name()+".score.h5")
 del model

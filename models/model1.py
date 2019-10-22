@@ -38,7 +38,7 @@ class Model:
         return (120,64,64)
 
     def epochs(self):
-        return (5000,1000,1000)
+        return (5000,1000)
 
     def _set_input_data(self, year, week, date, team_id, input_data, row_index, column_offset):
         games = self._db.last_games(team_id, limit=self._n, as_of=(year,week))
