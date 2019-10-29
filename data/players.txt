@@ -153,6 +153,7 @@ RamiMa20,"Manuel Ramirez","G",6-3,326lb,1983-02-19,117
 RobiAl00,"Aldrick Robinson","WR",5-10,185lb,1988-09-24,178
 RobiBr00,"Brian Robiskie","WR",6-2,207lb,1987-12-03,36
 RodgJa00,"Jacquizz Rodgers","RB",5-6,205lb,1990-02-06,145
+RushAn00,"Anthony Rush","NT",6-5,350lb,1996-09-01,
 ReynJo00,"Josh Reynolds","WR",6-3,196lb,1995-02-16,117
 RobiRy01,"Ryan Robinson","DE",6-4,255lb,1990-12-09,
 ReedD'00,"D'Aundre Reed","DL",6-4,261lb,1988-01-01,215
@@ -427,6 +428,7 @@ GrahBe20,"Ben Graham","P",6-5,236lb,1973-11-02,
 GrifCe20,"Cedric Griffin","DB",6-0,195lb,1982-11-11,48
 GoetTr99,"Travis Goethel","LB",6-2,240lb,1987-07-27,190
 GronRo00,"Rob Gronkowski","TE",6-6,268lb,1989-05-14,42
+GileJo01,"Joe Giles-Harris","LB",6-2,234lb,1997-04-01,
 GedeBe00,"Ben Gedeon","ILB",6-2,244lb,1994-10-16,120
 GanoGr44,"Graham Gano","K",6-2,202lb,1987-04-09,
 GilrDa00,"David Gilreath","WR",5-11,169lb,1988-12-11,
@@ -503,6 +505,7 @@ GeatCl00,"Clayton Geathers","SS",6-2,216lb,1992-06-01,109
 GrahDa00,"Daniel Graham","TE",6-3,257lb,1978-11-16,21
 GardAn20,"Andrew Gardner","T",6-7,304lb,1986-04-04,181
 GaitOm20,"Omar Gaither","LB",6-2,235lb,1984-03-18,168
+GonoMa00,"Matt Gono","T",6-4,305lb,1996-05-10,
 GheeBr99,"Brandon Ghee","DB",6-0,189lb,1987-06-06,96
 GuntRo00,"Rodney Gunter","DT",6-5,305lb,1992-01-19,116
 GotsAd00,"Adam Gotsis","DT",6-4,287lb,1992-09-23,63
@@ -1698,6 +1701,7 @@ HarrCl20,"Clark Harris","TE",6-5,250lb,1984-07-10,243
 HillDo00,"Dontrell Hilliard","RB",5-11,202lb,1995-02-26,
 HubbCh00,"Chris Hubbard","G",6-4,295lb,1991-04-23,
 HarrJo05,"Jonathan Harris","DE",6-5,295lb,1996-08-04,
+HuggAl01,"Albert Huggins","DT",6-3,305lb,1997-06-27,
 HousJu00,"Justin Houston","LB",6-3,270lb,1989-01-12,70
 HubbSa00,"Sam Hubbard","DE",6-5,265lb,1995-06-29,77
 HamiJa00,"Jakar Hamilton","S",5-11,196lb,1989-10-02,
@@ -1782,6 +1786,7 @@ HazePa00,"Paul Hazel","LB",6-5,227lb,1990-05-09,
 HillJo02,"Josh Hill","TE",6-5,250lb,1990-05-21,
 HadlSp01,"Spencer Hadley","LB",6-1,227lb,1989-10-30,
 HallLe98,"Leon Hall","DB",5-11,195lb,1984-12-09,18
+HudsTa00,"Tanner Hudson","TE",6-5,239lb,1994-11-12,
 HankJo00,"Johnathan Hankins","DT",6-3,340lb,1992-03-29,49
 HarrBr01,"Bryce Harris","T",6-6,300lb,1989-01-16,
 HynoHe01,"Henry Hynoski","FB",6-2,260lb,1988-12-30,
@@ -2311,6 +2316,7 @@ McClRo00,"Rolando McClain","LB",6-3,254lb,1989-07-14,8
 McInCo00,"Corey McIntyre","FB",6-0,245lb,1979-01-25,
 MasiMa00,"Matthew Masifilo","DT",6-3,280lb,1989-10-01,
 MayfBa00,"Baker Mayfield","QB",6-1,215lb,1995-04-14,1
+MillSh00,"Shareef Miller","EDGE",6-4,254lb,1997-03-14,138
 MauiRe00,"Reagan Maui'a","RB",6-0,260lb,1984-07-06,181
 McDeCo00,"Conor McDermott","OT",6-8,305lb,1992-10-19,211
 McClAl00,"Albert McClellan","DE",6-2,235lb,1986-06-04,
@@ -3298,6 +3304,7 @@ DunnCa00,"Casey Dunn","C",6-4,307lb,1994-10-11,
 DaviJu00,"Justin Davis","RB",6-1,199lb,1995-11-11,
 DeVaKy00,"Kyle DeVan","C",6-2,294lb,1985-02-10,
 DrauSh00,"Shaun Draughn","RB",6-0,205lb,1987-12-07,
+DawkNo00,"Noah Dawkins","LB",6-1,235lb,1997-08-13,
 DrayJi00,"Jim Dray","TE",6-5,253lb,1986-12-31,233
 DaleDe00,"Dennis Daley","OL",6-6,325lb,1996-08-07,212
 DrumKu01,"Kurtis Drummond","S",6-1,200lb,1992-01-29,
@@ -3666,6 +3673,7 @@ BallLo00,"Lonnie Ballentine","FS",6-3,225lb,1993-04-23,256
 BethAn20,"Antoine Bethea","DB",5-11,206lb,1984-07-27,207
 BellJo01,"Joique Bell","RB",5-11,220lb,1986-08-04,
 BoswCh00,"Chris Boswell","K",6-2,185lb,1991-03-16,
+BlakCh00,"Christian Blake","WR",6-1,181lb,1996-06-08,
 BordBr00,"Breon Borders","CB",6-0,189lb,1995-07-22,
 BryaDe00,"Desmond Bryant","DT",6-5,290lb,1985-12-15,
 BacaJe00,"Jeff Baca","OG",6-4,302lb,1990-01-10,196
@@ -3808,6 +3816,7 @@ BrowPh01,"Pharaoh Brown","TE",6-6,258lb,1994-05-04,
 BurrPl00,"Plaxico Burress","WR",6-5,232lb,1977-08-12,8
 BighAd00,"Adam Bighill","LB",5-10,230lb,1988-10-16,
 BrocKe00,"Kevin Brock","TE",6-5,315lb,1986-04-09,
+BuggIs00,"Isaiah Buggs","DL",6-3,295lb,1996-08-24,192
 BartCo00,"Cody Barton","LB",6-2,237lb,1996-11-13,88
 BaxtCo00,"Colin Baxter","C",6-3,311lb,1987-07-31,
 BondDe00,"Devante Bond","OLB",6-1,236lb,1993-07-03,183
