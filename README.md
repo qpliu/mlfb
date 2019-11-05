@@ -4,26 +4,50 @@ I really don't know what I'm doing.  I'm mostly blindly following the
 examples in the documentation without knowing what most of the
 terminology is or what most of the parameters mean.
 
+First set of predictions for 2019 week 10 (the Minnesota-Dallas inputs
+are apparently out of the range of the training data for model2.  The
+models are now on the San Francisco bandwagon as well as predicting
+Cincinnati's continuing winlessness):
+
+model1              | model2                     | actual
+------------------- | -------------------------- | ------
+SDG 22 rai 24 12.0% | sdg 24 RAI 28 78.0%        |
+buf 22 CLE 19 90.0% | BUF 30 cle 11 1.0%         |
+RAV 29 cin 19 0.0%  | RAV 47 cin 4 0.0%          |
+DET 26 chi 25 16.0% | det 19 CHI 35 90.0%        |
+crd 23 tam 26 48.0% | CRD 33 tam 15 0.0%         |
+KAN 24 oti 20 3.0%  | kan 25 OTI 31 62.0%        |
+NYG 24 nyj 21 20.0% | NYG 36 nyj 40 28.0%        |
+atl 20 NOR 28 71.0% | atl 29 NOR 48 93.0%        |
+car 22 GNB 27 88.0% | CAR 20 gnb 28 27.0%        |
+mia 16 CLT 29 92.0% | mia 5 CLT 19 64.0%         |
+ram 23 PIT 20 70.0% | ram 18 pit 11 49.0%        |
+MIN 22 dal 28 40.0% | min 198 DAL 289 100.0% :x: |
+sea 19 SFO 29 94.0% | sea 19 SFO 33 83.0%        |
+
 First set of predictions for 2019 week 9 (the Washington-Buffalo and
 Minnesota-KC inputs for model2 must somehow be way out of the range of
-the training data.  Once again, model2 thinks San Francisco is due to
-lose.  model2 also likes Houston, Tennessee, and Seattle):
-model1              | model2                    | actual
-------------------- | ------------------------- | ------
-SFO 25 crd 23 12.0% | sfo 20 CRD 39 99.0%       |
-HTX 26 jax 26 7.0%  | HTX 33 jax 14 1.0%        |
-OTI 19 car 24 9.0%  | OTI 35 car 23 1.0%        |
-was 17 BUF 24 70.0% | was 140 BUF 155 83.0% :x: |
-clt 18 PIT 23 67.0% | clt 29 pit 24 54.0%       |
-chi 18 phi 23 58.0% | CHI 13 phi 17 7.0%        |
-nyj 19 MIA 24 66.0% | NYJ 29 mia 20 17.0%       |
-MIN 28 kan 21 35.0% | min 181 KAN 188 86.0% :x: |
-tam 23 SEA 27 69.0% | tam 31 SEA 41 99.0%       |
-DET 23 rai 27 39.0% | det 24 rai 37 55.0%       |
-CLE 20 den 25 9.0%  | cle 18 DEN 20 87.0%       |
-GNB 26 sdg 20 38.0% | GNB 24 sdg 26 31.0%       |
-nwe 24 rav 24 55.0% | nwe 24 RAV 37 93.0%       |
-dal 25 NYG 19 60.0% | DAL 26 nyg 28 10.0%       |
+the training data, perhaps partly because Washington and Minnesota
+previously played on Thursday.  Once again, model2 thinks San
+Francisco is due to lose.  model2 also likes Houston, Tennessee, and
+Seattle):
+
+model1                                 | model2                                       | actual
+-------------------------------------- | -------------------------------------------- | ------
+SFO 25 crd 23 12.0% :heavy_check_mark: | sfo 20 CRD 39 99.0% :x:                      | 28-25
+HTX 26 jax 26 7.0%                     | HTX 33 jax 14 1.0% :heavy_check_mark:        | 26-3
+OTI 19 car 24 9.0%                     | OTI 35 car 23 1.0% :x:                       | 20-30
+was 17 BUF 24 70.0% :heavy_check_mark: | was 140 BUF 155 83.0% :x:                    | 9-24
+clt 18 PIT 23 67.0% :heavy_check_mark: | clt 29 pit 24 54.0% :x:                      | 24-26
+chi 18 phi 23 58.0% :heavy_check_mark: | CHI 13 phi 17 7.0%                           | 14-22
+nyj 19 MIA 24 66.0% :heavy_check_mark: | NYJ 29 mia 20 17.0% :x:                      | 18-26
+MIN 28 kan 21 35.0% :x:                | min 181 KAN 188 86.0% :x:                    | 23-26
+tam 23 SEA 27 69.0% :heavy_check_mark: | tam 31 SEA 41 99.0% :heavy_check_mark:       | 34-40
+DET 23 rai 27 39.0%                    | det 24 rai 37 55.0% :heavy_check_mark:       | 24-31
+CLE 20 den 25 9.0% :heavy_check_mark:  | cle 18 DEN 20 87.0% :heavy_check_mark:       | 19-24
+GNB 26 sdg 20 38.0% :x:                | GNB 24 sdg 26 31.0% :x:                      | 11-26
+nwe 24 rav 24 55.0%                    | nwe 24 RAV 37 93.0% :heavy_check_mark:       | 20-37
+dal 25 NYG 19 60.0%                    | DAL 26 nyg 28 10.0%                          | 37-18
 
 First set of predictions for 2019 week 8 (model1 tends to pick San
 Francisco over Carolina, while model2 consistently picks Carolina over

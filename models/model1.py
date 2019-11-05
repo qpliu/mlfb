@@ -16,7 +16,8 @@
 class Model:
     def __init__(self, db):
         self._db = db
-        self._n = 4
+        self._n = 8
+        self._neurons = (120,64)
         pass
 
     def name(self):
@@ -31,11 +32,19 @@ class Model:
     def need_history_size(self):
         return self._n
 
+    def set_history_size(self, n):
+        self._n = n
+        pass
+
     def input_dim(self):
         return 12
 
     def neurons(self):
-        return (120,64,64)
+        return self._neurons
+
+    def set_neurons(self, neurons):
+        self._neurons = neurons
+        pass
 
     def epochs(self):
         return (5000,1000)

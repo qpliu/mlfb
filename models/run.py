@@ -48,16 +48,12 @@ for i in range(nruns):
     modelscore.add(tensorflow.keras.layers.Dense(2, activation='linear', kernel_initializer='random_uniform'))
     modelscore.compile(optimizer='nadam', loss='mean_squared_error')
 
-    modelwin.fit(x, ywin, epochs=m.epochs()[0], batch_size=1024)
-    modelscore.fit(x, yscore, epochs=m.epochs()[1], batch_size=1024)
+    modelwin.fit(x, ywin, epochs=m.epochs()[0], batch_size=1024, verbose=0)
+    modelscore.fit(x, yscore, epochs=m.epochs()[1], batch_size=1024, verbose=0)
 
     for j in range(len(schedule.games)):
         (date,road_team_id,home_team_id) = schedule.games[j]
         m.set_input_data(schedule.year, schedule.week, date, road_team_id, home_team_id, xpredict, 0)
-        #win[(j,i)] = modelwin.predict(xpredict)
-        #scores = modelscore.predict(xpredict)
-        #score[(j,0,i)] = scores[0,0]
-        #score[(j,1,i)] = scores[0,1]
         win[j,i] = modelwin.predict(xpredict)
         score[j,:,i] = modelscore.predict(xpredict)
         pass
@@ -66,11 +62,6 @@ for i in range(nruns):
     del modelscore
     pass
 pass
-
-for j in range(len(schedule.games)):
-    (date,road_team_id,home_team_id) = schedule.games[j]
-    print(road_team_id,home_team_id,numpy.average(win[j,:]),numpy.average(score[j,0,:]),numpy.std(score[j,0,:]),numpy.average(score[j,1,:]),numpy.std(score[j,1,:]))
-    pass
 
 for j in range(len(schedule.games)):
     (date,road_team_id,home_team_id) = schedule.games[j]

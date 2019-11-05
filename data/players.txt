@@ -954,6 +954,7 @@ SuccRy44,"Ryan Succop","K",6-2,218lb,1986-09-19,256
 SmitTy01,"Tye Smith","CB",6-0,195lb,1993-05-03,170
 SileBr99,"Brandon Siler","LB",6-2,241lb,1985-12-05,240
 SateSa20,"Samson Satele","C",6-3,300lb,1984-11-29,60
+SterJa00,"Jace Sternberger","TE",6-4,251lb,1996-06-26,75
 SmitSt01,"Steve Smith","WR",5-9,195lb,1979-05-12,74
 SchrMa00,"Mason Schreck","TE",6-5,252lb,1993-11-04,251
 SittJo20,"Josh Sitton","G",6-3,318lb,1986-06-16,135
@@ -1424,6 +1425,7 @@ ArmsCo00,"Cornell Armstrong","CB",6-0,185lb,1995-09-22,209
 AngePa99,"Pat Angerer","LB",6-0,232lb,1987-01-31,63
 AdamTy00,"Tyrell Adams","LB",6-2,230lb,1992-04-11,
 AlleJa23,"Jason Allen","DB",6-1,200lb,1983-07-05,16
+AlleBr00,"Brandon Allen","QB",6-2,209lb,1992-09-05,201
 AusbDa00,"David Ausberry","WR",6-3,235lb,1987-09-25,241
 AlleRy01,"Ryan Allen","P",6-2,220lb,1990-02-28,
 AlleNa99,"Nate Allen","DB",6-1,205lb,1987-11-30,37
@@ -1794,6 +1796,7 @@ HodgKh00,"KhaDarel Hodge","WR",6-2,205lb,1995-01-03,
 HellWi00,"Will Heller","TE",6-6,275lb,1981-02-28,
 HeenBe00,"Ben Heeney","ILB",6-0,230lb,1992-05-13,140
 HawkJe00,"Jerald Hawkins","OT",6-6,305lb,1993-10-16,123
+HayeTa00,"Tae Hayes","DB",5-9,188lb,1997-08-19,
 HampCa00,"Casey Hampton","NT-DT",6-1,325lb,1977-09-03,19
 HenrMi00,"Mitchell Henry","TE",6-4,252lb,1992-12-11,
 HartTr00,"Trevon Hartfield","DB",6-2,195lb,1991-11-17,
@@ -2772,6 +2775,7 @@ JohnWe00,"Wesley Johnson","OT",6-5,309lb,1991-01-09,173
 CotcJe00,"Jerricho Cotchery","WR",6-1,205lb,1982-06-16,108
 CoxxBr01,"Bryan Cox Jr.","DE",6-3,270lb,1994-06-25,
 CoreCo00,"Cody Core","WR",6-3,205lb,1994-04-17,199
+CarlSt00,"Stephen Carlson","TE",6-4,240lb,1996-12-12,
 ClarJe20,"Jeromey Clary","T",6-6,320lb,1983-11-05,187
 ClemNa99,"Nate Clements","DB",6-0,205lb,1979-12-12,21
 CartDe02,"DeAndre Carter","WR",5-8,190lb,1993-04-10,
@@ -3102,6 +3106,7 @@ CrosKe00,"Keion Crossen","CB",5-10,185lb,1996-04-17,243
 CasiJo99,"Jonathan Casillas","LB",6-0,225lb,1987-06-03,
 ClarDa00,"Dallas Clark","TE",6-3,252lb,1979-06-12,24
 CarrTr00,"T.J. Carrie","CB",6-0,204lb,1990-07-28,219
+DortGr01,"Greg Dortch","WR",5-7,173lb,1998-05-29,
 DeOsZa99,"Zak DeOssie","LB",6-5,250lb,1984-05-24,116
 DumeEl20,"Elvis Dumervil","DE",5-11,250lb,1984-01-19,126
 DaniCh00,"Chase Daniel","QB",6-0,229lb,1986-10-07,
@@ -3338,6 +3343,7 @@ VelaFe20,"Fernando Velasco","G",6-3,308lb,1985-02-22,
 VallSt00,"Steve Vallos","G",6-3,297lb,1983-12-28,232
 VernOl00,"Olivier Vernon","DE",6-2,262lb,1990-10-07,72
 VallTa00,"Tanner Vallejo","ILB",6-1,230lb,1994-12-16,195
+VaugJa01,"James Vaughters","LB",6-1,256lb,1993-06-27,
 VickLa00,"Lawrence Vickers","FB",6-0,250lb,1983-05-08,180
 VaugJo01,"Josh Vaughan","RB",6-0,232lb,1986-12-03,
 VaugCa00,"Cassius Vaughn","DB",5-11,195lb,1987-11-03,
@@ -3914,6 +3920,7 @@ BushDe01,"Devin Bush Jr.","LB",5-11,234lb,1998-07-18,10
 BouyA.00,"A.J. Bouye","CB",6-0,191lb,1991-08-16,
 BrowCu01,"Curtis Brown","DB",6-0,180lb,1988-09-24,95
 BabiJo21,"Jordan Babineaux","DB",6-0,210lb,1982-08-31,
+BrooTo01,"Tony Brooks-James","RB",5-9,179lb,1994-12-06,
 BrowBr02,"Bryce Brown","RB",6-0,223lb,1991-05-14,229
 BarbRo00,"Ronde Barber","DB",5-10,184lb,1975-04-07,66
 BakeRy00,"Ryan Baker","DE",6-5,295lb,1984-11-25,
@@ -4503,6 +4510,7 @@ WilsGe01,"George Wilson","SS",6-0,210lb,1981-03-14,
 WillSt02,"Steve Williams","CB",5-9,181lb,1991-03-07,145
 WestCh02,"Christian Westerman","OG",6-3,315lb,1993-02-23,161
 WeghBr00,"Brandon Wegher","RB",5-10,215lb,1990-12-09,
+WalkMi00,"Michael Walker","WR",5-11,195lb,1996-10-29,
 WestEt00,"Ethan Westbrooks","DE",6-4,287lb,1990-11-15,
 WebbJM20,"J'Marcus Webb","T",6-7,320lb,1988-08-08,218
 WebbBW00,"B.W. Webb","CB",5-11,188lb,1990-05-03,114
@@ -4652,6 +4660,7 @@ WillAv00,"Avery Williamson","ILB",6-1,246lb,1992-03-09,151
 WynnSh00,"Shane Wynn","WR",5-6,168lb,1992-11-15,
 WrigSh00,"Shareece Wright","DB",5-11,184lb,1987-04-08,89
 WinsKe01,"Kellen Winslow","TE",6-4,240lb,1983-07-21,6
+WatsBr01,"Brandon Watson","DB",5-11,198lb,1995-07-11,
 WilsC.98,"C.J. Wilson","DE",6-4,271lb,1987-03-30,230
 WernBj00,"Bjoern Werner","DE",6-3,266lb,1990-08-30,24
 WatkDa00,"Danny Watkins","OL",6-3,312lb,1984-11-06,23
@@ -4692,6 +4701,7 @@ WillCa99,"Cary Williams","DB",6-1,185lb,1984-12-23,229
 WillBo21,"Bobbie Williams","G",6-4,345lb,1976-09-25,61
 WillDe22,"Demorrio Williams","LB",6-1,235lb,1980-07-06,101
 WiseDe00,"Deatrich Wise Jr.","DE",6-5,275lb,1994-07-26,131
+WatsJo00,"Josh Watson","LB",6-2,240lb,1996-05-20,
 WillJa95,"Jason Williams","LB",6-1,240lb,1986-04-23,69
 WashDw00,"Dwayne Washington","RB",6-1,223lb,1994-04-24,236
 WhitCh02,"Charlie Whitehurst","QB",6-4,226lb,1982-08-06,81
