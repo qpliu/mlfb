@@ -1,17 +1,18 @@
 import datetime
 
 year = 2019
-week = 10
-games = [(datetime.date(2019,11,7),'sdg','rai'),
-         (datetime.date(2019,11,10),'buf','cle'),
-         (datetime.date(2019,11,10),'rav','cin'),
-         (datetime.date(2019,11,10),'det','chi'),
-         (datetime.date(2019,11,10),'crd','tam'),
-         (datetime.date(2019,11,10),'kan','oti'),
-         (datetime.date(2019,11,10),'nyg','nyj'),
-         (datetime.date(2019,11,10),'atl','nor'),
-         (datetime.date(2019,11,10),'car','gnb'),
-         (datetime.date(2019,11,10),'mia','clt'),
-         (datetime.date(2019,11,10),'ram','pit'),
-         (datetime.date(2019,11,10),'min','dal'),
-         (datetime.date(2019,11,11),'sea','sfo')]
+week = 11
+games = [(datetime.date(2019,11,14),'pit','cle'),
+         (datetime.date(2019,11,17),'dal','det'),
+         (datetime.date(2019,11,17),'jax','clt'),
+         (datetime.date(2019,11,17),'atl','car'),
+         (datetime.date(2019,11,17),'nyj','was'),
+         (datetime.date(2019,11,17),'nor','tam'),
+         (datetime.date(2019,11,17),'htx','rav'),
+         (datetime.date(2019,11,17),'den','min'),
+         (datetime.date(2019,11,17),'buf','mia'),
+         (datetime.date(2019,11,17),'crd','sfo'),
+         (datetime.date(2019,11,17),'cin','rai'),
+         (datetime.date(2019,11,17),'nwe','phi'),
+         (datetime.date(2019,11,17),'chi','ram'),
+         (datetime.date(2019,11,18),'kan','sdg')]
