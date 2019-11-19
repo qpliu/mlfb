@@ -4,25 +4,46 @@ I really don't know what I'm doing.  I'm mostly blindly following the
 examples in the documentation without knowing what most of the
 terminology is or what most of the parameters mean.
 
+First set of predictions for 2019 week 12 (this week, the models like
+Oakland, Seattle, and Baltimore on the road, and Buffalo and New
+Orleans at home):
+
+model1               | model2              | actual
+-------------------- | ------------------- | ------
+clt 21 htx 26 55.0%  | clt 18 htx 30 41.0% |
+nyg 21 CHI 24 75.0%  | nyg 27 chi 25 43.0% |
+den 17 BUF 24 73.0%  | den 17 BUF 22 89.0% |
+TAM 26 atl 27 31.0%  | tam 30 ATL 41 97.0% |
+DET 27 was 22 26.0%  | det 12 WAS 23 99.0% |
+RAI 25 nyj 20 24.0%  | RAI 21 nyj 26 4.0%  |
+car 19 NOR 27 79.0%  | car 19 NOR 33 94.0% |
+mia 18 CLE 24 80.0%  | mia 18 CLE 34 96.0% |
+PIT 23 cin 15 2.0%   | pit 32 CIN 29 80.0% |
+JAX 22 oti 23 36.0%  | JAX 24 oti 16 7.0%  |
+GNB 20 sfo 27 27.0%  | GNB 23 sfo 27 35.0% |
+dal 19 NWE 25 100.0% | dal 20 NWE 32 61.0% |
+SEA 24 phi 22 7.0%   | SEA 14 phi 23 15.0% |
+RAV 25 ram 23 22.0%  | RAV 30 ram 22 24.0% |
+
 First set of predictions for 2019 week 11 (this week, the models like
 Cleveland, the Jets, Minnesota, and San Francisco):
 
-model1              | model2              | actual
-------------------- | ------------------- | ------
-pit 20 CLE 21 79.0% | pit 14 CLE 39 98.0% |
-dal 28 det 25 46.0% | DAL 31 det 25 37.0% |
-jax 21 CLT 22 85.0% | JAX 20 clt 34 31.0% |
-atl 21 car 26 46.0% | atl 24 car 35 55.0% |
-NYJ 20 was 22 20.0% | NYJ 30 was 16 1.0%  |
-NOR 23 tam 25 4.0%  | nor 28 TAM 34 87.0% |
-htx 25 RAV 28 61.0% | htx 37 rav 31 43.0% |
-den 18 MIN 26 99.0% | den 23 MIN 31 94.0% |
-BUF 23 mia 17 38.0% | buf 19 MIA 28 95.0% |
-crd 17 SFO 29 98.0% | crd 23 SFO 28 95.0% |
-cin 19 RAI 28 82.0% | cin 23 RAI 21 91.0% |
-nwe 24 phi 22 53.0% | nwe 34 phi 30 48.0% |
-chi 18 RAM 25 78.0% | chi 21 RAM 25 89.0% |
-kan 23 SDG 23 65.0% | KAN 22 sdg 18 10.0% |
+model1 (12-2)                          | model2 (9-5)                           | actual
+-------------------------------------- | -------------------------------------- | ------
+pit 20 CLE 21 79.0% :heavy_check_mark: | pit 14 CLE 39 98.0% :heavy_check_mark: | 7-21
+dal 28 det 25 46.0% :heavy_check_mark: | DAL 31 det 25 37.0% :heavy_check_mark: | 35-27
+jax 21 CLT 22 85.0% :heavy_check_mark: | JAX 20 clt 34 31.0%                    | 13-33
+atl 21 car 26 46.0%                    | atl 24 car 35 55.0% :x:                | 29-3
+NYJ 20 was 22 20.0%                    | NYJ 30 was 16 1.0% :heavy_check_mark:  | 34-17
+NOR 23 tam 25 4.0%                     | nor 28 TAM 34 87.0% :x:                | 34-17
+htx 25 RAV 28 61.0% :heavy_check_mark: | htx 37 rav 31 43.0% :x:                | 7-41
+den 18 MIN 26 99.0% :heavy_check_mark: | den 23 MIN 31 94.0% :heavy_check_mark: | 23-27
+BUF 23 mia 17 38.0% :heavy_check_mark: | buf 19 MIA 28 95.0% :x:                | 37-20
+crd 17 SFO 29 98.0% :heavy_check_mark: | crd 23 SFO 28 95.0% :heavy_check_mark: | 26-36
+cin 19 RAI 28 82.0% :heavy_check_mark: | cin 23 RAI 21 91.0%                    | 10-17
+nwe 24 phi 22 53.0%                    | nwe 34 phi 30 48.0% :heavy_check_mark: | 17-10
+chi 18 RAM 25 78.0% :heavy_check_mark: | chi 21 RAM 25 89.0% :heavy_check_mark: | 7-17
+kan 23 SDG 23 65.0% :x:                | KAN 22 sdg 18 10.0% :heavy_check_mark: | 24-17
 
 First set of predictions for 2019 week 10 (the Minnesota-Dallas inputs
 are apparently out of the range of the training data for model2.  The

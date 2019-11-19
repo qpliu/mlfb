@@ -958,6 +958,7 @@ SmitTy01,"Tye Smith","CB",6-0,195lb,1993-05-03,170
 SileBr99,"Brandon Siler","LB",6-2,241lb,1985-12-05,240
 SateSa20,"Samson Satele","C",6-3,300lb,1984-11-29,60
 SterJa00,"Jace Sternberger","TE",6-4,251lb,1996-06-26,75
+ScarBo01,"Bo Scarbrough","RB",6-1,235lb,1996-09-29,236
 SmitSt01,"Steve Smith","WR",5-9,195lb,1979-05-12,74
 SchrMa00,"Mason Schreck","TE",6-5,252lb,1993-11-04,251
 SittJo20,"Josh Sitton","G",6-3,318lb,1986-06-16,135
@@ -1701,6 +1702,7 @@ OrchNa00,"Nate Orchard","OLB",6-3,251lb,1993-01-05,51
 OgunLa00,"Larry Ogunjobi","DT",6-3,305lb,1994-06-03,65
 OgleAl00,"Alec Ogletree","OLB",6-2,235lb,1991-09-25,30
 HoweGr00,"Gregory Howell","RB",6-1,215lb,1996-03-27,
+HarrNK00,"N'Keal Harry","WR",6-4,225lb,1997-12-17,32
 HamxC.00,"C.J. Ham","RB",5-11,235lb,1993-07-22,
 HansJo20,"Joselio Hanson","DB",5-9,180lb,1981-08-13,
 HillTr00,"Trysten Hill","DL",6-3,308lb,1998-03-25,58
@@ -1753,6 +1755,7 @@ HoodEl00,"Elijah Hood","RB",5-11,230lb,1996-04-22,242
 HartGa00,"Garrett Hartley","K",5-8,204lb,1986-05-16,
 HarrNi20,"Nick Harris","P",6-2,218lb,1978-07-23,120
 HarrDu01,"DuJuan Harris","RB",5-7,197lb,1988-09-03,
+HarlSe00,"Sean Harlow","OG",6-4,284lb,1995-03-28,136
 HatfDo00,"Dominique Hatfield","CB",5-10,178lb,1994-12-13,
 HeinTa00,"Taylor Heinicke","QB",6-1,210lb,1993-03-15,
 HamiCo00,"Cobi Hamilton","WR",6-2,201lb,1990-11-13,197
@@ -2615,6 +2618,7 @@ JoneGr02,"Greg Jones","LB",6-0,240lb,1988-10-05,185
 JernTi00,"Timmy Jernigan","DT",6-2,295lb,1992-09-24,48
 JohnMi98,"Michael Johnson","DE",6-7,280lb,1987-02-07,70
 JoneRo01,"Ronald Jones II","RB",5-11,208lb,1997-08-03,38
+JoneTe02,"Tevin Jones","WR",6-2,225lb,1992-12-26,
 JameCr01,"Craig James","CB",5-10,195lb,1996-04-29,
 JackJo02,"Joe Jackson","EDGE",6-5,258lb,,165
 JohnJa23,"Jarret Johnson","DE",6-3,260lb,1981-08-14,109
@@ -2687,6 +2691,7 @@ JoneGr01,"Greg Jones","RB",6-1,265lb,1981-05-09,55
 JoneCa01,"Cardale Jones","QB",6-5,250lb,1992-10-29,139
 JoneBy00,"Byron Jones","CB",6-0,205lb,1992-09-26,27
 JoneCh02,"Chris Jones","P",6-0,205lb,1989-07-21,
+JohnFr01,"Fred Johnson","G",6-7,326lb,1997-06-05,
 JohnSh00,"Shelton Johnson","S",6-0,197lb,1990-07-16,
 JoneBa00,"Barrett Jones","C",6-4,306lb,1990-05-25,113
 JoneTe01,"Terren Jones","T",6-2,220lb,1974-10-06,
@@ -3674,6 +3679,7 @@ BarrMa00,"Mark Barron","LB",6-2,230lb,1989-10-27,7
 BanyJo00,"Joe Banyard","RB",5-11,213lb,1988-11-12,
 BaldJo00,"Jonathan Baldwin","WR",6-4,225lb,1989-08-10,26
 BlacWi20,"Will Blackmon","DB",6-0,212lb,1984-10-27,115
+BrewCh01,"Chandler Brewer","T",6-6,319lb,1997-06-12,
 ButlDe00,"Deon Butler","WR",5-10,170lb,1986-01-04,91
 BurrMi00,"Miles Burris","OLB",6-2,241lb,1988-06-27,129
 BergJo20,"Joe Berger","T",6-5,305lb,1982-05-25,207
@@ -3946,6 +3952,7 @@ BakeSa21,"Sam Baker","T",6-5,308lb,1985-05-30,21
 BurnDe00,"Deontay Burnett","WR",6-0,186lb,1997-10-04,
 BateTr00,"Trevor Bates","LB",6-2,247lb,1993-08-28,239
 BoweDa00,"Da'Quan Bowers","DE",6-4,275lb,1990-02-23,51
+BrowKy00,"Kyron Brown","DB",6-1,195lb,1996-05-26,
 BlacCh21,"Chase Blackburn","LB",6-3,240lb,1983-06-10,
 BracRo99,"Ron Brace","DT",6-3,329lb,1986-12-18,40
 BoycJo00,"Josh Boyce","WR",5-11,206lb,1991-05-06,102
@@ -4709,6 +4716,7 @@ WoodCi00,"Cierre Wood","RB",5-11,213lb,1991-02-21,
 WadeTr00,"Trevin Wade","CB",5-10,192lb,1989-08-01,245
 WillMa06,"Marcus Williams","S",6-1,195lb,1996-09-08,42
 WhitCo03,"Cody Whitehair","OG",6-3,309lb,1992-07-11,56
+WebsNs00,"Nsimba Webster","WR",5-10,180lb,1996-01-27,
 WillJa02,"Jacquian Williams","OLB",6-4,225lb,1988-07-20,202
 WynnIs00,"Isaiah Wynn","OT",6-2,310lb,1996-12-10,23
 WatsJu01,"Justin Watson","WR",6-3,215lb,1995-04-04,144

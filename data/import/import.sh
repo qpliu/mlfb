@@ -7,6 +7,6 @@ then ./create_db "$DB"
 fi
 
 ./import_players "$DB" < ../players.txt
-find ../games -type f | while read i
+find ../games -type f -newerBt '3 weeks ago' | while read i
 do ./import_game "$DB" < "$i"
 done
