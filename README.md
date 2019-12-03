@@ -4,29 +4,51 @@ I really don't know what I'm doing.  I'm mostly blindly following the
 examples in the documentation without knowing what most of the
 terminology is or what most of the parameters mean.
 
+First set of predictions for 2019 week 14 (the models like the Jets
+and the Steelers and continue to favor the Saints):
+
+model1              | model2               | actual
+------------------- | -------------------- | ------
+dal 25 CHI 22 78.0% | dal 20 CHI 22 79.0%  |
+cin 19 CLE 25 93.0% | CIN 13 cle 16 12.0%  |
+rav 23 buf 22 59.0% | RAV 23 buf 12 7.0%   |
+car 22 atl 25 50.0% | car 25 ATL 37 95.0%  |
+CLT 21 tam 23 16.0% | clt 23 tam 20 53.0%  |
+mia 19 NYJ 24 77.0% | mia 13 NYJ 37 100.0% |
+sfo 18 nor 23 60.0% | sfo 14 NOR 31 91.0%  |
+det 21 MIN 29 69.0% | det 26 MIN 33 98.0%  |
+den 18 HTX 27 86.0% | DEN 20 htx 29 37.0%  |
+was 17 GNB 26 77.0% | was 14 gnb 34 57.0%  |
+sdg 21 jax 20 56.0% | SDG 24 jax 16 1.0%   |
+OTI 23 rai 23 34.0% | OTI 37 rai 17 2.0%   |
+kan 18 NWE 25 68.0% | kan 20 nwe 27 57.0%  |
+PIT 22 crd 19 4.0%  | PIT 28 crd 22 4.0%   |
+sea 24 ram 24 45.0% | SEA 30 ram 21 12.0%  |
+NYG 17 phi 26 35.0% | nyg 25 PHI 34 69.0%  |
+
 First set of predictions for 2019 week 13 (model1 has picked New
 Orleans every time, and, this week, both models like New Orleans, as
 well as Baltimore, Philadelphia, Arizona, Pittsburgh, and, especially,
 the Jets):
 
-model1              | model2               | actual
-------------------- | -------------------- | ------
-CHI 20 det 23 35.0% | chi 20 det 15 53.0%  |
-buf 20 dal 24 48.0% | buf 23 DAL 23 93.0%  |
-NOR 25 atl 22 35.0% | NOR 28 atl 17 11.0%  |
-was 18 CAR 25 80.0% | was 40 car 18 52.0%  |
-sfo 20 RAV 27 89.0% | sfo 24 RAV 38 100.0% |
-gnb 24 NYG 20 68.0% | gnb 23 nyg 19 43.0%  |
-PHI 22 mia 18 30.0% | PHI 24 mia 23 15.0%  |
-rai 23 KAN 26 88.0% | RAI 29 kan 17 3.0%   |
-TAM 26 jax 25 2.0%  | tam 24 JAX 16 75.0%  |
-OTI 21 clt 24 25.0% | oti 8 clt 27 59.0%   |
-NYJ 21 cin 15 16.0% | NYJ 30 cin 6 0.0%    |
-ram 23 CRD 23 84.0% | ram 24 CRD 28 83.0%  |
-cle 19 PIT 24 61.0% | cle 0 PIT 30 100.0%  |
-sdg 21 den 20 58.0% | SDG 26 den 11 0.0%   |
-nwe 22 HTX 23 85.0% | nwe 25 htx 22 43.0%  |
-min 25 SEA 27 65.0% | MIN 42 sea 31 0.0%   |
+model1 (11-5)                          | model2 (5-11)                           | actual
+-------------------------------------- | --------------------------------------- | ------
+CHI 20 det 23 35.0%                    | chi 20 det 15 53.0%                     | 24-20
+buf 20 dal 24 48.0%                    | buf 23 DAL 23 93.0% :x:                 | 26-15
+NOR 25 atl 22 35.0% :heavy_check_mark: | NOR 28 atl 17 11.0% :heavy_check_mark:  | 26-18
+was 18 CAR 25 80.0% :x:                | was 40 car 18 52.0%                     | 29-21
+sfo 20 RAV 27 89.0% :heavy_check_mark: | sfo 24 RAV 38 100.0% :heavy_check_mark: | 17-20
+gnb 24 NYG 20 68.0% :x:                | gnb 23 nyg 19 43.0% :heavy_check_mark:  | 31-13
+PHI 22 mia 18 30.0% :x:                | PHI 24 mia 23 15.0% :x:                 | 31-37
+rai 23 KAN 26 88.0% :heavy_check_mark: | RAI 29 kan 17 3.0% :x:                  | 9-40
+TAM 26 jax 25 2.0% :heavy_check_mark:  | tam 24 JAX 16 75.0%                     | 28-11
+OTI 21 clt 24 25.0% :heavy_check_mark: | oti 8 clt 27 59.0% :x:                  | 31-17
+NYJ 21 cin 15 16.0% :x:                | NYJ 30 cin 6 0.0% :x:                   | 6-22
+ram 23 CRD 23 84.0% :x:                | ram 24 CRD 28 83.0% :x:                 | 34-7
+cle 19 PIT 24 61.0% :heavy_check_mark: | cle 0 PIT 30 100.0% :heavy_check_mark:  | 13-20
+sdg 21 den 20 58.0%                    | SDG 26 den 11 0.0% :heavy_check_mark:   | 20-23
+nwe 22 HTX 23 85.0% :heavy_check_mark: | nwe 25 htx 22 43.0% :x:                 | 22-28
+min 25 SEA 27 65.0% :heavy_check_mark: | MIN 42 sea 31 0.0% :x:                  | 30-37
 
 First set of predictions for 2019 week 12 (this week, the models like
 Oakland, Seattle, and Baltimore on the road, and Buffalo, Cleveland,
