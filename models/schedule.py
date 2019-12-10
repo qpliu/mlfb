@@ -1,20 +1,20 @@
 import datetime
 
 year = 2019
-week = 14
-games = [(datetime.date(2019,12,5),'dal','chi'),
-         (datetime.date(2019,12,8),'cin','cle'),
-         (datetime.date(2019,12,8),'rav','buf'),
-         (datetime.date(2019,12,8),'car','atl'),
-         (datetime.date(2019,12,8),'clt','tam'),
-         (datetime.date(2019,12,8),'mia','nyj'),
-         (datetime.date(2019,12,8),'sfo','nor'),
-         (datetime.date(2019,12,8),'det','min'),
-         (datetime.date(2019,12,8),'den','htx'),
-         (datetime.date(2019,12,8),'was','gnb'),
-         (datetime.date(2019,12,8),'sdg','jax'),
-         (datetime.date(2019,12,8),'oti','rai'),
-         (datetime.date(2019,12,8),'kan','nwe'),
-         (datetime.date(2019,12,8),'pit','crd'),
-         (datetime.date(2019,12,8),'sea','ram'),
-         (datetime.date(2019,12,9),'nyg','phi')]
+week = 15
+games = [(datetime.date(2019,12,12),'nyj','rav'),
+         (datetime.date(2019,12,15),'nwe','cin'),
+         (datetime.date(2019,12,15),'sea','car'),
+         (datetime.date(2019,12,15),'phi','was'),
+         (datetime.date(2019,12,15),'buf','pit'),
+         (datetime.date(2019,12,15),'htx','oti'),
+         (datetime.date(2019,12,15),'mia','nyg'),
+         (datetime.date(2019,12,15),'den','kan'),
+         (datetime.date(2019,12,15),'chi','gnb'),
+         (datetime.date(2019,12,15),'tam','det'),
+         (datetime.date(2019,12,15),'cle','crd'),
+         (datetime.date(2019,12,15),'jax','rai'),
+         (datetime.date(2019,12,15),'atl','sfo'),
+         (datetime.date(2019,12,15),'ram','dal'),
+         (datetime.date(2019,12,15),'min','sdg'),
+         (datetime.date(2019,12,16),'clt','nor')]
