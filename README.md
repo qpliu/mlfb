@@ -4,26 +4,47 @@ I really don't know what I'm doing.  I'm mostly blindly following the
 examples in the documentation without knowing what most of the
 terminology is or what most of the parameters mean.
 
-First set of predictions for 2019 week 15:
+First set of predictions for 2019 week 16:
 
 model1              | model2              | actual
 ------------------- | ------------------- | ------
-nyj 13 RAV 28 93.0% | nyj 22 RAV 38 100.0%|
-nwe 23 CIN 16 68.0% | nwe 25 CIN 26 63.0% |
-SEA 27 car 21 21.0% | SEA 30 car 22 0.0%  |
-PHI 22 was 22 31.0% | phi 20 WAS 16 85.0% |
-buf 18 PIT 22 83.0% | buf 23 PIT 36 100.0%|
-htx 22 OTI 28 85.0% | htx 22 OTI 25 91.0% |
-mia 23 NYG 20 86.0% | mia 16 NYG 21 79.0% |
-den 17 kan 25 50.0% | DEN 24 kan 13 6.0%  |
-chi 19 GNB 24 94.0% | chi 17 GNB 28 76.0% |
-tam 26 det 22 49.0% | TAM 32 det 14 0.0%  |
-CLE 23 crd 19 1.0%  | CLE 36 crd 23 1.0%  |
-JAX 20 rai 23 27.0% | jax 18 RAI 30 95.0% |
-atl 18 SFO 26 68.0% | atl 15 SFO 32 98.0% |
-ram 21 DAL 25 82.0% | ram 19 DAL 25 80.0% |
-MIN 23 sdg 24 30.0% | MIN 9 sdg 24 21.0%  |
-clt 19 nor 26 60.0% | CLT 22 nor 18 1.0%  |
+car 21 CLT 26 85.0% | car 20 CLT 26 99.0% |
+rav 26 CLE 21 66.0% | RAV 32 cle 27 5.0%  |
+jax 18 atl 26 58.0% | jax 21 atl 27 57.0% |
+nyg 21 WAS 23 62.0% | NYG 16 was 17 39.0% |
+HTX 23 tam 28 31.0% | HTX 25 tam 21 11.0% |
+ram 20 SFO 26 62.0% | ram 23 SFO 24 87.0% |
+rai 19 SDG 25 87.0% | RAI 29 sdg 23 16.0% |
+nor 25 OTI 29 91.0% | nor 20 OTI 39 98.0% |
+pit 19 nyj 21 54.0% | pit 18 NYJ 24 68.0% |
+BUF 17 nwe 21 26.0% | buf 20 nwe 26 54.0% |
+cin 19 mia 24 55.0% | cin 29 MIA 29 73.0% |
+DET 21 den 24 12.0% | det 26 DEN 28 95.0% |
+crd 20 SEA 28 94.0% | CRD 25 sea 13 20.0% |
+dal 25 phi 23 57.0% | dal 16 PHI 34 99.0% |
+KAN 22 chi 19 37.0% | KAN 20 chi 20 15.0% |
+gnb 21 MIN 27 64.0% | gnb 25 MIN 32 97.0% |
+
+First set of predictions for 2019 week 15:
+
+model1 (11-5)                          | model2 (7-9)                            | actual
+-------------------------------------- | --------------------------------------- | ------
+nyj 13 RAV 28 93.0% :heavy_check_mark: | nyj 22 RAV 38 100.0% :heavy_check_mark: | 21-42
+nwe 23 CIN 16 68.0%                    | nwe 25 CIN 26 63.0% :x:                 | 34-13
+SEA 27 car 21 21.0% :heavy_check_mark: | SEA 30 car 22 0.0% :heavy_check_mark:   | 30-24
+PHI 22 was 22 31.0% :heavy_check_mark: | phi 20 WAS 16 85.0%                     | 37-27
+buf 18 PIT 22 83.0% :x:                | buf 23 PIT 36 100.0% :x:                | 17-10
+htx 22 OTI 28 85.0% :x:                | htx 22 OTI 25 91.0% :x:                 | 24-21
+mia 23 NYG 20 86.0%                    | mia 16 NYG 21 79.0% :heavy_check_mark:  | 20-36
+den 17 kan 25 50.0% :heavy_check_mark: | DEN 24 kan 13 6.0% :x:                  | 3-23
+chi 19 GNB 24 94.0% :heavy_check_mark: | chi 17 GNB 28 76.0% :heavy_check_mark:  | 13-21
+tam 26 det 22 49.0% :heavy_check_mark: | TAM 32 det 14 0.0% :heavy_check_mark:   | 38-17
+CLE 23 crd 19 1.0% :x:                 | CLE 36 crd 23 1.0% :x:                  | 24-38
+JAX 20 rai 23 27.0%                    | jax 18 RAI 30 95.0% :x:                 | 20-16
+atl 18 SFO 26 68.0% :x:                | atl 15 SFO 32 98.0% :x:                 | 29-22
+ram 21 DAL 25 82.0% :heavy_check_mark: | ram 19 DAL 25 80.0% :heavy_check_mark:  | 21-44
+MIN 23 sdg 24 30.0%                    | MIN 9 sdg 24 21.0%                      | 39-10
+clt 19 nor 26 60.0% :heavy_check_mark: | CLT 22 nor 18 1.0% :x:                  | 7-34
 
 First set of predictions for 2019 week 14 (the models like the Jets
 and the Steelers and continue to favor the Saints):
