@@ -4,26 +4,47 @@ I really don't know what I'm doing.  I'm mostly blindly following the
 examples in the documentation without knowing what most of the
 terminology is or what most of the parameters mean.
 
+First set of predictions for 2019 week 17:
+
+model1              | model2               | actual
+------------------- | -------------------- | ------
+was 19 DAL 27 65.0% | WAS 21 dal 23 29.0%  |
+cle 23 CIN 19 97.0% | CLE 18 cin 22 15.0%  |
+NOR 27 car 18 24.0% | NOR 31 car 14 5.0%   |
+nyj 17 BUF 22 71.0% | nyj 28 BUF 17 68.0%  |
+ATL 25 tam 28 34.0% | atl 12 TAM 23 81.0%  |
+pit 14 RAV 29 97.0% | pit 23 RAV 34 100.0% |
+PHI 24 nyg 21 12.0% | phi 26 NYG 28 78.0%  |
+mia 20 NWE 25 87.0% | mia 25 NWE 33 95.0%  |
+chi 17 MIN 25 92.0% | CHI 28 min 15 37.0%  |
+sdg 18 KAN 26 76.0% | sdg 19 KAN 21 94.0%  |
+CLT 22 jax 18 40.0% | clt 14 JAX 32 100.0% |
+OTI 27 htx 26 31.0% | OTI 34 htx 41 35.0%  |
+gnb 22 DET 18 67.0% | gnb 22 DET 21 92.0%  |
+SFO 24 sea 25 35.0% | sfo 41 sea 37 50.0%  |
+crd 20 RAM 26 79.0% | CRD 35 ram 28 1.0%   |
+rai 20 den 24 45.0% | rai 29 DEN 26 93.0%  |
+
 First set of predictions for 2019 week 16:
 
-model1              | model2              | actual
-------------------- | ------------------- | ------
-car 21 CLT 26 85.0% | car 20 CLT 26 99.0% |
-rav 26 CLE 21 66.0% | RAV 32 cle 27 5.0%  |
-jax 18 atl 26 58.0% | jax 21 atl 27 57.0% |
-nyg 21 WAS 23 62.0% | NYG 16 was 17 39.0% |
-HTX 23 tam 28 31.0% | HTX 25 tam 21 11.0% |
-ram 20 SFO 26 62.0% | ram 23 SFO 24 87.0% |
-rai 19 SDG 25 87.0% | RAI 29 sdg 23 16.0% |
-nor 25 OTI 29 91.0% | nor 20 OTI 39 98.0% |
-pit 19 nyj 21 54.0% | pit 18 NYJ 24 68.0% |
-BUF 17 nwe 21 26.0% | buf 20 nwe 26 54.0% |
-cin 19 mia 24 55.0% | cin 29 MIA 29 73.0% |
-DET 21 den 24 12.0% | det 26 DEN 28 95.0% |
-crd 20 SEA 28 94.0% | CRD 25 sea 13 20.0% |
-dal 25 phi 23 57.0% | dal 16 PHI 34 99.0% |
-KAN 22 chi 19 37.0% | KAN 20 chi 20 15.0% |
-gnb 21 MIN 27 64.0% | gnb 25 MIN 32 97.0% |
+model1 (8-8)                           | model2 (14-2)                          | actual
+-------------------------------------- | -------------------------------------- | ------
+car 21 CLT 26 85.0% :heavy_check_mark: | car 20 CLT 26 99.0% :heavy_check_mark: | 6-38
+rav 26 CLE 21 66.0%                    | RAV 32 cle 27 5.0% :heavy_check_mark:  | 31-15
+jax 18 atl 26 58.0% :heavy_check_mark: | jax 21 atl 27 57.0% :heavy_check_mark: | 12-24
+nyg 21 WAS 23 62.0% :x:                | NYG 16 was 17 39.0%                    | 41-35
+HTX 23 tam 28 31.0%                    | HTX 25 tam 21 11.0% :heavy_check_mark: | 23-20
+ram 20 SFO 26 62.0% :heavy_check_mark: | ram 23 SFO 24 87.0% :heavy_check_mark: | 31-34
+rai 19 SDG 25 87.0% :x:                | RAI 29 sdg 23 16.0% :heavy_check_mark: | 24-17
+nor 25 OTI 29 91.0% :x:                | nor 20 OTI 39 98.0% :x:                | 38-28
+pit 19 nyj 21 54.0% :heavy_check_mark: | pit 18 NYJ 24 68.0% :heavy_check_mark: | 10-16
+BUF 17 nwe 21 26.0%                    | buf 20 nwe 26 54.0% :heavy_check_mark: | 17-24
+cin 19 mia 24 55.0% :heavy_check_mark: | cin 29 MIA 29 73.0% :heavy_check_mark: | 35-38
+DET 21 den 24 12.0%                    | det 26 DEN 28 95.0% :heavy_check_mark: | 17-27
+crd 20 SEA 28 94.0% :x:                | CRD 25 sea 13 20.0% :heavy_check_mark: | 27-13
+dal 25 phi 23 57.0%                    | dal 16 PHI 34 99.0% :heavy_check_mark: | 9-17
+KAN 22 chi 19 37.0% :heavy_check_mark: | KAN 20 chi 20 15.0% :heavy_check_mark: | 26-3
+gnb 21 MIN 27 64.0% :x:                | gnb 25 MIN 32 97.0% :x:                | 23-10
 
 First set of predictions for 2019 week 15:
 
