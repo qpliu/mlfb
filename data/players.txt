@@ -235,6 +235,7 @@ RogeSh99,"Shaun Rogers","DT",6-4,350lb,1979-03-12,61
 UngaUa00,"Uani Unga","LB",6-1,231lb,1987-12-28,
 UrbaBr00,"Brent Urban","DE",6-7,300lb,1991-05-05,134
 UngeMa20,"Max Unger","C",6-5,305lb,1986-04-14,49
+UdohOl01,"Olisaemeka Udoh","T",6-5,323lb,1997-02-14,
 UndeTi00,"Tiquan Underwood","WR",6-1,175lb,1987-02-17,253
 UzomC.00,"C.J. Uzomah","TE",6-6,260lb,1993-01-14,157
 UrsuJo00,"John Ursua","WR",5-9,182lb,1994-01-17,236
@@ -259,6 +260,7 @@ IdonIs20,"Israel Idonije","DT",6-6,275lb,1980-11-17,
 IrviIs00,"Isaiah Irving","OLB",6-3,254lb,1994-09-06,
 IrviCo99,"Corvey Irvin","DT",6-3,296lb,1985-05-03,93
 IyieJo00,"Joel Iyiegbuniwe","LB",6-1,226lb,1995-10-12,115
+IrwiTr00,"Trenton Irwin","WR",6-2,207lb,1995-12-10,
 IngrMe00,"Melvin Ingram","DE",6-2,247lb,1989-04-26,18
 IworPr00,"Prince Charles Iworah","CB",5-11,193lb,1993-03-11,249
 IrviBr00,"Bruce Irvin","DE",6-3,250lb,1987-11-01,15
@@ -538,6 +540,7 @@ GreeTy20,"Tyronne Green","G",6-1,305lb,1986-04-06,133
 GaffJa00,"Jabar Gaffney","WR",6-2,200lb,1980-12-01,33
 GarcMa00,"Max Garcia","C",6-4,309lb,1991-11-09,133
 GrisGe00,"Geneo Grissom","OLB",6-4,265lb,1992-06-04,97
+GiveKe01,"Kevin Givens","DT",6-1,285lb,1997-03-01,
 GreeVi00,"Virgil Green","",6-5,255lb,1988-08-03,204
 GoodDe00,"Demetri Goodson","CB",5-11,197lb,1989-06-11,197
 GrigNi01,"Nicholas Grigsby","LB",6-2,230lb,1992-07-02,
@@ -1551,6 +1554,7 @@ FinnCo20,"Cortland Finnegan","DB",5-10,190lb,1984-02-02,215
 FellDa00,"Daniel Fells","TE",6-4,260lb,1983-09-23,
 FeenDa00,"Dan Feeney","OG",6-4,310lb,1994-05-29,71
 FlueAn99,"Andre Fluellen","DT",6-2,285lb,1985-03-07,87
+FranJo04,"John Franklin","DB",6-0,185lb,1994-09-21,
 FredTe00,"Terrence Frederick","CB",5-10,187lb,1990-02-10,246
 FerrCl00,"Clelin Ferrell","EDGE",6-4,265lb,1997-05-17,4
 FullWi01,"Will Fuller","WR",6-0,184lb,1994-04-16,21
@@ -1692,6 +1696,7 @@ OkerBo00,"Bobby Okereke","LB",6-1,235lb,1996-07-29,89
 ODonPa00,"Pat O'Donnell","P",6-4,212lb,1991-02-22,191
 OdriJa99,"Jared Odrick","DT",6-5,301lb,1987-12-31,28
 OdhiRe00,"Rees Odhiambo","OG",6-4,297lb,1992-09-23,97
+OlumDo00,"Donovan Olumba","CB",6-2,205lb,1995-09-26,
 OgbaEm00,"Emmanuel Ogbah","DE",6-4,275lb,1993-11-06,32
 OlivBr01,"Branden Oliver","RB",5-8,208lb,1991-05-07,
 OrrxLe00,"Leon Orr","DT",6-5,320lb,1992-02-11,
@@ -2375,6 +2380,7 @@ MoodNi00,"Nick Moody","OLB",6-1,245lb,1990-01-29,180
 MathRa99,"Rashean Mathis","DB",6-1,195lb,1980-08-27,39
 McBrTr99,"Trumaine McBride","DB",5-9,185lb,1985-09-24,221
 MayoDa00,"David Mayo","ILB",6-2,245lb,1993-08-08,169
+McSoTr00,"Trace McSorley","QB",6-0,202lb,1995-08-23,197
 MaggCu00,"Curt Maggitt","LB",6-3,256lb,1993-02-04,
 McGaKa00,"Kaleb McGary","OL",6-6,306lb,1995-02-22,31
 McCaA.00,"A.J. McCarron","QB",6-3,215lb,1990-09-13,164
@@ -3187,6 +3193,7 @@ DunbQu00,"Quinton Dunbar","WR",6-2,202lb,1992-07-22,
 DaviLe21,"Leonard Davis","T-G",6-6,355lb,1978-09-05,2
 DeveJa00,"James Develin","RB",6-3,255lb,1988-07-23,
 DaviDe00,"Demario Davis","OLB",6-2,248lb,1989-01-11,77
+DaviRa01,"Rashard Davis","WR",5-9,175lb,1994-12-07,
 DaviCa02,"Carlton Davis","CB",6-1,206lb,1996-12-31,63
 dawsophi01,"Phil Dawson","K",5-11,200lb,1975-01-23,
 DaniLe00,"LeShun Daniels","RB",5-11,222lb,1995-06-04,
@@ -3258,6 +3265,7 @@ DaviA.00,"A.J. Davis","CB",6-0,183lb,1989-07-06,
 DougHa00,"Harry Douglas","WR",6-0,183lb,1984-09-16,84
 DietEv00,"Evan Dietrich-Smith","G",6-2,308lb,1986-07-19,
 DuarTh00,"Thomas Duarte","WR",6-2,241lb,1995-03-30,231
+DaviJa08,"Jamal Davis","DE",6-4,240lb,1995-07-09,
 DillBr00,"Brandon Dillon","TE",6-5,250lb,1997-04-30,
 DossTa00,"Tandon Doss","WR",6-2,201lb,1989-09-22,123
 DaniMa00,"Matt Daniels","DB",6-1,211lb,1989-05-05,
@@ -3798,6 +3806,7 @@ BoykBr00,"Brandon Boykin","CB",5-9,183lb,1990-07-13,123
 BrooTe00,"Terrence Brooks","FS",5-11,205lb,1992-03-02,79
 BennMi99,"Michael Bennett","DE",6-4,275lb,1985-11-13,
 BurgJa01,"James Burgess","LB",6-0,230lb,1994-03-09,
+BailQu00,"Quinn Bailey","T",6-6,323lb,1995-10-18,
 BennMi01,"Michael Bennett","DT",6-2,287lb,1993-02-24,180
 BibbE.00,"E.J. Bibbs","TE",6-3,261lb,1991-08-29,
 BisnAd00,"Adam Bisnowaty","OT",6-5,310lb,1993-12-14,200
@@ -4513,6 +4522,7 @@ PoluTy20,"Tyler Polumbus","G",6-7,302lb,1985-04-10,
 PoweWi00,"William Powell","RB",5-9,207lb,1988-03-09,
 PeteBr00,"Brian Peters","LB",6-4,237lb,1988-10-31,
 PaulLo00,"Logan Paulsen","TE",6-5,268lb,1987-02-26,
+PoweBe00,"Ben Powers","OL",6-4,310lb,1996-10-29,123
 PoweDa02,"Darius Powe","WR",6-3,220lb,1994-03-15,
 PittLa00,"Lafayette Pitts","CB",5-11,195lb,1992-09-24,
 PoseDe00,"DeVier Posey","WR",6-1,214lb,1990-03-15,68
@@ -4550,6 +4560,7 @@ PinkEr00,"Eric Pinkins","FS",6-3,220lb,1991-08-07,208
 PryoTe00,"Terrelle Pryor","QB",6-4,228lb,1989-06-20,1
 ParkCo03,"Cody Parkey","K",6-0,190lb,1992-02-19,
 PatrLu00,"Lucas Patrick","G",6-3,313lb,1993-07-30,
+PittAn01,"Anthony Pittman","LB",6-3,240lb,1996-11-24,
 PittDe00,"Dennis Pitta","TE",6-4,245lb,1985-06-29,114
 ParkRo01,"Ron Parker","CB",6-0,206lb,1987-08-17,
 PughJu00,"Justin Pugh","OG",6-5,311lb,1990-08-12,19
@@ -4805,6 +4816,7 @@ WaltKe00,"Kevin Walter","WR",6-3,216lb,1981-08-04,255
 WhitKy00,"Kyzir White","S",6-2,218lb,1996-03-24,119
 WilsKy99,"Kyle Wilson","DB",5-10,190lb,1987-05-30,29
 WillTe01,"Terrance Williams","WR",6-2,210lb,1989-09-08,74
+WeahJe01,"Jester Weah","WR",6-3,209lb,1995-02-07,
 WeslDe00,"De'Ondre Wesley","T",6-6,331lb,1992-07-28,
 WarrGr20,"Greg Warren","C",6-3,252lb,1981-10-18,
 WillBr02,"Brandon Williams","DT",6-1,336lb,1989-02-21,94

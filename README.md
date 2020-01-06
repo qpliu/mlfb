@@ -6,24 +6,24 @@ terminology is or what most of the parameters mean.
 
 First set of predictions for 2019 week 17:
 
-model1              | model2               | actual
-------------------- | -------------------- | ------
-was 19 DAL 27 65.0% | WAS 21 dal 23 29.0%  |
-cle 23 CIN 19 97.0% | CLE 18 cin 22 15.0%  |
-NOR 27 car 18 24.0% | NOR 31 car 14 5.0%   |
-nyj 17 BUF 22 71.0% | nyj 28 BUF 17 68.0%  |
-ATL 25 tam 28 34.0% | atl 12 TAM 23 81.0%  |
-pit 14 RAV 29 97.0% | pit 23 RAV 34 100.0% |
-PHI 24 nyg 21 12.0% | phi 26 NYG 28 78.0%  |
-mia 20 NWE 25 87.0% | mia 25 NWE 33 95.0%  |
-chi 17 MIN 25 92.0% | CHI 28 min 15 37.0%  |
-sdg 18 KAN 26 76.0% | sdg 19 KAN 21 94.0%  |
-CLT 22 jax 18 40.0% | clt 14 JAX 32 100.0% |
-OTI 27 htx 26 31.0% | OTI 34 htx 41 35.0%  |
-gnb 22 DET 18 67.0% | gnb 22 DET 21 92.0%  |
-SFO 24 sea 25 35.0% | sfo 41 sea 37 50.0%  |
-crd 20 RAM 26 79.0% | CRD 35 ram 28 1.0%   |
-rai 20 den 24 45.0% | rai 29 DEN 26 93.0%  |
+model1 (10-6)                          | model2 (8-8)                            | actual
+-------------------------------------- | --------------------------------------- | ------
+was 19 DAL 27 65.0% :heavy_check_mark: | WAS 21 dal 23 29.0% :x:                 | 16-47
+cle 23 CIN 19 97.0%                    | CLE 18 cin 22 15.0%                     | 23-33
+NOR 27 car 18 24.0% :heavy_check_mark: | NOR 31 car 14 5.0% :heavy_check_mark:   | 42-10
+nyj 17 BUF 22 71.0% :x:                | nyj 28 BUF 17 68.0%                     | 13-6
+ATL 25 tam 28 34.0%                    | atl 12 TAM 23 81.0% :x:                 | 28-22
+pit 14 RAV 29 97.0% :heavy_check_mark: | pit 23 RAV 34 100.0% :heavy_check_mark: | 10-28
+PHI 24 nyg 21 12.0% :heavy_check_mark: | phi 26 NYG 28 78.0% :x:                 | 34-17
+mia 20 NWE 25 87.0% :x:                | mia 25 NWE 33 95.0% :x:                 | 27-24
+chi 17 MIN 25 92.0% :x:                | CHI 28 min 15 37.0% :heavy_check_mark:  | 21-19
+sdg 18 KAN 26 76.0% :heavy_check_mark: | sdg 19 KAN 21 94.0% :heavy_check_mark:  | 21-31
+CLT 22 jax 18 40.0% :x:                | clt 14 JAX 32 100.0% :heavy_check_mark: | 20-38
+OTI 27 htx 26 31.0% :heavy_check_mark: | OTI 34 htx 41 35.0%                     | 35-14
+gnb 22 DET 18 67.0% :x:                | gnb 22 DET 21 92.0% :x:                 | 23-20
+SFO 24 sea 25 35.0%                    | sfo 41 sea 37 50.0% :heavy_check_mark:  | 26-21
+crd 20 RAM 26 79.0% :heavy_check_mark: | CRD 35 ram 28 1.0% :x:                  | 24-31
+rai 20 den 24 45.0%                    | rai 29 DEN 26 93.0%                     | 15-16
 
 First set of predictions for 2019 week 16:
 
